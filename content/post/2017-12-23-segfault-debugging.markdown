@@ -14,7 +14,7 @@ bug, but it was a new class of bug **for me** and so it was a good learning oppo
 ### why do segfaults happen?
 
 Really quickly -- a segfault is when your program tries to access an area that it's not allowed to
-happen. This can happen for a few reasons:
+access. This can happen for a few reasons:
 
 * You tried to dereference ("access") a null pointer (`0x0` is an address! derefencing it does not
   work!) 
